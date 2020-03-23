@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <title>Tech Bar</title>
+</head>
+<body>
+  <div class="bg">
+    <div class="container">
+      <h1>Welcome to Tech Bar</h1>
+      <h3>The online database for beverages</h3>
+      <p>Find your next favorite drink!</p>
+      <div class="flex">
+        <form class="flex" id="submit">
+          <input type="text" id="search" autocomplete="off" placeholder="Search for drinks">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="random-btn" id="random">
+          <i class="fas fa-random"></i>
+        </button>
+      </div>
+      <div id="result-heading"></div>
+      <div id="drinks" class="drinks"></div>
+      <div id="single-drink"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

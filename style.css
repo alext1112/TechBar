@@ -25,7 +25,7 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
 }
 
@@ -115,6 +115,13 @@ input[type="text"] {
   opacity: 1;
   padding: 10px;
 }
+
+footer {
+  margin-top: 100px;
+}
+
+
+
 
 @media (max-width: 800px) {
   .drinks {

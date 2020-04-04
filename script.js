@@ -110,6 +110,21 @@ function addDrinkToDOM(drink) {
 submit.addEventListener('submit', searchDrink);
 random.addEventListener('click', getRandomDrink);
 
+drinksEl.addEventListener('touchstart', e => {
+  const drinkInfo = e.path.find(item => {
+    if (item.classList) {
+      return item.classList.contains('drink-info');
+    } else {
+      return false;
+    }
+  });
+
+  if (drinkInfo) {
+    const drinkID = drinkInfo.getAttribute('data-drinkid');
+    getDrinkByID(drinkID);
+  }
+})
+
 
 drinksEl.addEventListener('click', e => {
   const drinkInfo = e.path.find(item => {

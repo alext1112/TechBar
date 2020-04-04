@@ -116,11 +116,22 @@ input[type="text"] {
   padding: 10px;
 }
 
-footer {
-  margin-top: 100px;
+.song-title {
+  margin-top: 150px;
 }
 
+small {
+  margin-bottom: 10px;
+}
 
+audio {
+  opacity: .5;
+  outline: 0;
+}
+
+footer {
+  margin-top: 75px;
+}
 
 
 @media (max-width: 800px) {
@@ -149,10 +160,4 @@ footer {
     height: 85%;
     width: 85%;
   }
-}
-
-audio {
-  opacity: .5;
-  outline: 0;
-  margin-top: 100px;
 }

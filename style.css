@@ -150,3 +150,9 @@ footer {
     width: 85%;
   }
 }
+
+audio {
+  opacity: .5;
+  outline: 0;
+  margin-top: 100px;
+}

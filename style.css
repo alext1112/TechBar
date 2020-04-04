@@ -144,4 +144,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  #single-drink img {
+    height: 85%;
+    width: 85%;
+  }
 }
